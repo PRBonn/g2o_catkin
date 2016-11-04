@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>g2o</name>
+  <version>0.0.0</version>
+  <description>A wrapper over g2o package. Populates includes and libraries of
+    g2o to be visible in catkin build system. </description>
+
+  <maintainer email="igor.bogoslavskyi@uni-bonn.de">igor</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
