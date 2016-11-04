@@ -21,7 +21,7 @@ Alternatively, you can run cmake from source:
 Also, you can pass git tag if you want to:
 - `cmake -DGIT_TAG=61ad5f87abf21b37fcb87d6343bab2512e58712d ..`
 
-** It downloads and builds G2O. It takes a lot of time, so have patience. **
+**It downloads and builds G2O. It takes a lot of time, so have patience.**
 
 ## Some details ##
 This package does all the work in CMake phase. The reason for this is that we
