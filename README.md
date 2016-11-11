@@ -4,9 +4,9 @@ The package is a wrapper around G2O to allow using it easily with Catkin.
 ## Funtionality ##
 It features a CMake script that carries out main functions:
 - downloads specified G2O tag from GitHub repository (newest by default)
-- exports G2O includes, so they are available as `${g2o_INCLUDE_DIRS}` for
+- exports G2O includes, so they are available as `${g2o_catkin_INCLUDE_DIRS}` for
   other catkin packages.
-- exports G2O libraries, so they are available as `${g2o_LIBRARIES}` for other
+- exports G2O libraries, so they are available as `${g2o_catkin_LIBRARIES}` for other
   catkin packages.
 
 ## How to use? ##
@@ -22,6 +22,7 @@ Also, you can pass git tag if you want to:
 - `cmake -DGIT_TAG=61ad5f87abf21b37fcb87d6343bab2512e58712d ..`
 
 **It downloads and builds G2O. It takes a lot of time, so have patience.**
+**Note that if you are using Ubuntu 16.04 or higher, the compiling will produce a lot of warnings.**
 
 ## Some details ##
 This package does all the work in CMake phase. The reason for this is that we
