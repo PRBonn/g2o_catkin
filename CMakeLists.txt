@@ -7,7 +7,8 @@ set(G2O_PREFIX g2o)
 set(G2O_GIT_REPO https://github.com/RainerKuemmerle/g2o.git)
 
 if(NOT GIT_TAG)
-  set(GIT_TAG \"\")
+##  set(GIT_TAG \"\")
+  set(GIT_TAG 1b118ac2ed2055c4016c3b7cbd710225ed1651af)
 endif()
 
 message(STATUS ${GIT_TAG})
