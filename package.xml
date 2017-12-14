@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>g2o_catkin</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>A wrapper over g2o package. Populates includes and libraries of
     g2o to be visible in catkin build system. </description>
 

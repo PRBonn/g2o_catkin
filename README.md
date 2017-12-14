@@ -11,7 +11,7 @@ It features a CMake script that carries out main functions:
 
 ## How to use? ##
 Just copy it to your catkin workspace and run:
-- `catkin build g2o`
+- `catkin build g2o_catkin`
 
 Alternatively, you can run cmake from source:
 - `mkdir build`
@@ -22,7 +22,6 @@ Also, you can pass git tag if you want to:
 - `cmake -DGIT_TAG=61ad5f87abf21b37fcb87d6343bab2512e58712d ..`
 
 **It downloads and builds G2O. It takes a lot of time, so have patience.**
-**Note that if you are using Ubuntu 16.04 or higher, the compiling will produce a lot of warnings.**
 
 ## Some details ##
 This package does all the work in CMake phase. The reason for this is that we
